@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(238, 242, 255);
-
+    background-color: #150b1b;
+    color: aliceblue;
 }
 img{
     display: flex;
@@ -25,7 +25,7 @@ img{
     bottom: 180px;
 }
 .weblinks{
-    color: red;
+    color: turquoise;
 }
 header{
     text-align: center;
@@ -33,7 +33,7 @@ header{
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: rgb(214, 218, 240);
+    background-color: #371c4a;
     padding-left: 10px;
     padding-right: 10px;
     border-style: outset;
@@ -46,10 +46,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(214, 218, 240);
+    background-color: #371c4a;
     border-style: outset;
     border-width: 1px;
-    border-color: red;
+    border-color: turquoise;
     font-size: small;
 }
 main{
@@ -60,7 +60,7 @@ main{
     /* NORTH EAST SOUTH WEST */
 }
 p{
-    background-color: rgb(214, 218, 240);
+    background-color: #371c4a;
     width: fit-content;
     display: flex;
     padding-left: 10px;
