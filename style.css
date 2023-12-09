@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(238, 242, 255);
+
+}
+img{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    float : left;
+    padding: 10px;
+    margin-right: 10px;
+}
+.icon{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    right: 980px;
+    bottom: 180px;
+}
+.weblinks{
+    color: red;
+}
+header{
+    text-align: center;
+    min-height: 4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(214, 218, 240);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: outset;
+    border-width: 1px;
+}
+footer{
+    min-height: 1vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 218, 240);
+    border-style: outset;
+    border-width: 1px;
+    border-color: red;
+    font-size: small;
+}
+main{
+    width: 1111px;
+    text-align: left;
+    justify-content: left;
+    /* margin: 10px 15px 11px 16px; */
+    /* NORTH EAST SOUTH WEST */
+}
+p{
+    background-color: rgb(214, 218, 240);
+    width: fit-content;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: outset;
+    border-width: 1px;
+}
+.thanks{
+    position: relative;
+    left: 333px;
+}
+.countdown{
+  color: #333;
+}
+.links{
+    position: relative;
+    left: 380px;
+}
+h2{
+    text-align: center;
+    min-height: 4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgb(214, 218, 240);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: red;
+}
+pre{
+    background-color: rgb(214, 218, 240);
+    width: fit-content;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: outset;
+    border-width: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
